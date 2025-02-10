@@ -1,0 +1,21 @@
+.app-container {
+	display: flex;
+}
+
+.main-content {
+	width: 100%;
+}
+
+.with-sidebar {
+	margin-left: 250px;
+	padding: 20px;
+}
+
+/* Adjust for Mobile */
+@media (max-width: 768px) {
+	.with-sidebar {
+		margin-left: 0px;
+		margin-top: 100px;
+		padding: 20px;
+	}
+}
